@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'The HoA can be updated by' do
   describe 'the add_character method' do
-    it 'adds Snarf to :third_earthers' do
+    it 'adds Dave to :chipmunks' do
       expect(add_character(:chipmunks, "Dave")).to eq(["Alvin", "Simon", "Theodore", "Dave"])
     end
 
